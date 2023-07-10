@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anyomar Hernández</title>
+    <link rel="stylesheet" href="/css/styles.css">
+     <!--Iconos Redes-->
+    <link rel="stylesheet" href="/css/fontello.css">
+     <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/icons8-marca-de-verificación-256.png"
+    />
+     <!-- Animaciones CSS CDN -->
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+
+<body>
+    <header>
+         <!-- Barra de Navegación -->
+          <nav>
+                <h1>A&M</h1>
+                <ul class="navegacion">
+                  <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+                  <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                  <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                  <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <button class="menu-hamburguesa" id="menu-hamburguesa">
+                  <ion-icon class="barras" name="menu-outline"></ion-icon>
+                </button>
+          </nav>    
+    </header>
+    <main>
+    <!-- Sección Hero  -->
+    <section class="hero" id="sobremi">
+        <img
+          src="/img/Foto Personal.jpeg"
+          alt="foto-anyo"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">Anyomar Hernández</h2>
+          <p class="bio-texto">
+            Especialista en Diseño y Fabricación 3D de accesorios para maquinas de coser de gran demanda en el mercado, sobre todo, para la confección de lenceria femenina, trajes de baño y ropa interior para toda la familia. 
+          </p>
+          <p>
+            Con más de 8 años de experiencia, usando impresoras 3D en la fabricación y armado de los accesorios, luego, calzarlos y probarlos en las diferentes maquinas de coser y así confirmar su efectividad ejecutando la tarea para la cual fué diseñado; al final, transmito las metas y objetivos del accesorio a través de elementos audio visuales en redes sociales. 
+          </p>
+          <br>
+          <button type="submit" class="btn" onclick="openpopup()">Descarga mi CV</button>
+        </div>
+    </section>
+
+    <!-- Mensaje Flotante -->
+    <div class="popup" id="popup">
+      <img src="/img/check.png" alt="">
+      <h2>Gracias!</h2>
+      <p>La descarga iniciará automaticamente en unos segundos.</p>
+      <button type="button" onclick="closepopup()">OK</button>
+    </div>
+
+    <!-- Sobre Mí -->
+   <section class="mas-sobre">
+    <div class="contenido">
+        <h2>Mas sobre mi!</h2>
+        <p>
+            Algunas de mis habilidades cognitivas y socioemocionales son:
+        <p>
+            Creatividad para transformar una idea en algo útil y mecánico, para su posterior uso efectivo.
+        </p>
+        <p>
+            Comprender las necesidades del cliente y ejecución efectiva de sus exigencias.
+        </p>
+        <p>
+            Capacidad de definir un problema y evaluar soluciones.
+        </p>
+        <p>
+          Además, en mi tiempo libre me gusta: manejar bicicleta, dibujar maniquies de moda, diseñar, patronar y confeccionar ropa interior femenina.
+        </p>        
+    </div>
+  </section>
+
+    <!-- Sección Habilidades -->
+ <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidad">Mis mejores habilidades las desarrollo en...</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="/img/solidworks.png"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+          <img
+            src="/img/repetierhost.png"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+          <img
+            src="/img/ultimaker-cura-25547-0.jpg"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="/img/capcut.jpg"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+          <img
+            src="/img/coreldraw_cuadrado.jpg"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+          <img
+            src="/img/lightroom.png"
+            alt=""
+            loading="lazy"
+            class="icon-card"
+          />
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyectos">Algunos de mis diseños más populares son:</h2>
+        <div class="contenedor-de-proyectos">
+          
+          <div class="contenedor-de-proyectos-tarjeta-de-proyectos">
+            <img
+              src="/img/sesgo elastico.png"
+              alt="monitor-sesgo-elastico"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyectos">Prensatela Sesgo Elástico</h3>
+            <p class="detalle-de-proyectos">
+              Especialmente diseñado para facilitar la tarea de confección con elástico partido que venden en merceria.
+              Disponible para elástico partido de 15mm y 20mm de ancho.
+            </p>
+            <a href="https://youtu.be/NKxsmwFYmfY" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+
+          <div class="contenedor-de-proyectos-tarjeta-de-proyectos">
+            <img
+              src="/img/Elastico morita.png"
+              alt="monitor-elastico-morita"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyectos">Prensatela Elástico Morita</h3>
+            <p class="detalle-de-proyectos">
+              Ideal para coser y ruchar elasticos lisos y morita de 10mm de ancho sin esfuerzo.
+              Utiliza el tensor regulable para aplicar para mayor o menor ruche al elastico.
+            </p>
+            <a href="https://www.instagram.com/p/Cj2xCnUgvWa/?hl=es-la" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+          
+          <div class="contenedor-de-proyectos-tarjeta-de-proyectos">
+            <img
+              src="/img/guia de sesgo.png"
+              alt="monitor-guia-de-sesgo"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyectos">Guia Ajustable para Sesgo</h3>
+            <p class="detalle-de-proyectos">
+              Olvidate de planchar! Esta guia hará todo el trabajo por ti, doblando y ocultando los bordes de la tira de tela, mientras realiza el tiro y cose el sesgo. Disponible para resultados de 8mm y 10mm de ancho.
+            </p>
+            <a href="https://youtu.be/a1Md0Xv1Qts" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+      <h2>Contactame</h2>
+      <div class="formulario-contacto-contenedor">
+        <div class="formulario-contacto">
+          <form action="https://formspree.io/f/xyyqyjqe" method="POST" id="formcontacto">
+            <div class="control-formulario">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingresa tu correo electrónico"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                cols="60"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+       
+    <!-- Sección de redes sociales -->
+    <section class="red-social">
+      <input type="checkbox" id="btn-mas">
+      <div class="redes" >
+          <a href="https://www.youtube.com/channel/UCDSs4lTKrJeP0YBShAj7QyQ/" target="_blank" class="icon-youtube-play" id="red"></a>
+          <a href="https://www.instagram.com/productosaym/" target="_blank" class="icon-instagram-filled" id="red"></a>
+          <a href="#" target="_blank" class="icon-github-circled" id="red"></a>
+      </div>
+      <div class="btn-mas">
+          <label for="btn-mas" class="icon-plus"></label>
+      </div>
+  </section>
+
+    <!-- desplazarse hacia arriba  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+    ><img
+      src="/img/arrow-upward.png"
+      class="socicon-up-arrow"
+      alt="desplazarse-hacia-arriba"
+    /></i>
+
+    <!-- Sección Footer  -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">Built with &#x2661; by Anyomar Hernández       
+      </p>
+</footer>
+    </main>
+
+    <!-- Website scripts -->
+    <script src="/js/main.js"></script>
+    
+    <!-- Ion icons scripts -->
+     <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+   ></script>
+   <script
+     nomodule
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+   ></script>
+   
+
+  </body>
+</html>
